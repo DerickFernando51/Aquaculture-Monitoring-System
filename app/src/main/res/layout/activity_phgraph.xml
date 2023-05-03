@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="3dp"
+        android:id="@+id/pH_btn"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:textColor="#FFFFFF"
+        android:background="#0000FF"
+
+        android:text="Back"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="pH graph"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="6dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#0000FF"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="pH"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="45dp"
+        android:textColor="#0000FF"/>
+
+
+    <com.github.mikephil.charting.charts.LineChart
+
+        android:layout_marginTop="55dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/pH_chart"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Time"
+        android:layout_marginStart="360dp"
+        android:layout_marginTop="818dp"
+        android:textColor="#0000FF"/>
+
+
+</RelativeLayout>

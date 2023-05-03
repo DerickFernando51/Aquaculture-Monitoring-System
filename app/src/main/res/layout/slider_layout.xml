@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    app:flow_horizontalAlign="center"
+
+    >
+
+    <ImageView
+        android:id="@+id/titleImage"
+        android:layout_width="wrap_content"
+        android:layout_height="460dp"
+
+        android:layout_gravity="center|top"
+        android:src="@drawable/image2" />
+
+    <TextView
+        android:id="@+id/texttitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/heading_one"
+
+
+        android:textAlignment="center"
+        android:textColor="@color/background2"
+        android:textSize="35sp" />
+
+    <TextView
+        android:id="@+id/textdeccription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        android:text="Nominal value: 400 ppm to 450 ppm"
+
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textSize="18sp"/>
+
+
+</LinearLayout>

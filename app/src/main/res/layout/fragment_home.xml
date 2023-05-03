@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Home"
+    android:background="@drawable/image9">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/slt_logo"
+        android:layout_gravity="center_horizontal"
+        android:scaleType="fitStart"
+        android:layout_marginTop="25dp"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
+        android:layout_marginStart="10dp"
+        android:gravity="center_horizontal"
+        android:text="AQUACULTURE MONITORING SYSTEM"
+        android:textColor="#00008B"
+        android:textSize="25sp"
+        android:textStyle="bold"
+
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Measured values :"
+        android:textColor="@color/darkblue"
+        android:textSize="25sp"
+        android:layout_marginTop="220dp"
+        android:layout_marginLeft="30dp"
+
+
+
+        />
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="240dp"
+        android:padding="5dp"
+      />
+
+
+
+
+
+
+</FrameLayout>

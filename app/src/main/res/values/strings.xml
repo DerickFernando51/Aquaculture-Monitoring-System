@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Aquaculture</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    //Headings
+    <string name="heading_one">Temperature sensor</string>
+    <string name="heading_two">TDS sensor</string>
+    <string name="heading_three">pH sensor</string>
+    <string name="heading_fourth">Pay Anywhere</string>
+
+    //Description
+    <string name="desc_one">Nominal value: 25°C - 30°C</string>
+    <string name="desc_two">Nominal value: 400 ppm - 450 ppm</string>
+    <string name="desc_three">Nominal value: 6.5 - 8.5</string>
+    <string name="desc_fourth"> </string>
+    <string name="title_activity_main3">MainActivity3</string>
+
+
+</resources>
