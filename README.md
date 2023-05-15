@@ -9,8 +9,9 @@ The mobile application was created in Android Studio IDE using Java programming 
  
  <br><br>
  <p align="center"> 
- <img src="https://github.com/DerickFernando51/Aquaculture/assets/124335793/e1dcb178-fade-4c38-81f6-cfae18c6dc95" width="675"> </p>
+ <img src="https://github.com/DerickFernando51/Aquaculture/assets/124335793/d2489b33-9b47-41a6-a136-11dbcc5438bb" width="675"> </p>
  
+
  
   <br> <br>
 In order to make it easier to analyze the graphs, landscape layout qualifiers were added to the main and graph activity pages as shown in figure 7 and 8.
