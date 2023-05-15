@@ -3,34 +3,40 @@ The aquaculture monitoring system is a system that measures the conditions of aq
 
 The mobile application was created in Android Studio IDE using Java programming language and XML. Figures 1 to 6 show the layout of the activities of this application. Each activity has a seperate Java and XML file.
 
-                       
-Figure 2.21 Splashscreen                 Figure 2.22 Temperature                  Figure 2.23 TDS slide 
-              activity 			  slide screen activity			    screen activity
-              
-       Figure 2.24 pH slide                     Figure 2.25 Main activity              Figure 2.26 Temperature 
-           screen activity 			 			 	        graph activity (Portrait)
-
-
-In order to make it easier to analyze the graphs, landscape layout qualifiers were added to the main and graph activity pages as shown in figure 2.27 and 2.28.
+<br>
+ <p align="center"> 
+ <img src="https://github.com/DerickFernando51/Aquaculture/assets/124335793/8bfe726e-f0c8-4ff6-944f-2a8da009352d" width="675"> </p>
+ 
+ <br><br>
+ <p align="center"> 
+ <img src="https://github.com/DerickFernando51/Aquaculture/assets/124335793/e1dcb178-fade-4c38-81f6-cfae18c6dc95" width="675"> </p>
+ 
+ 
+  <br> <br>
+In order to make it easier to analyze the graphs, landscape layout qualifiers were added to the main and graph activity pages as shown in figure 7 and 8.
+ <br>
+ <p align="center"> 
+ <img src="https://github.com/DerickFernando51/Aquaculture/assets/124335793/4cec7040-bf31-4288-ae2a-cc33d702d263" width="550"> </p>
+  
+  <br><br>
+ <p align="center"> 
+ <img src="https://github.com/DerickFernando51/Aquaculture/assets/124335793/3d50e2fe-0644-4840-93fa-ccd63d5e98f9" width="550"> </p>
+<br>
+ 
 
  
-Figure 2.27 Main activity (Landscape)
+ <br>
+I also added alert dialogs to create an alert if any of the three parameters went above a predefined nominal value. This is illustrated in figure 9
+<br>
+<p align="center"> 
+<img src="https://github.com/DerickFernando51/Aquaculture/assets/124335793/8cfc5d36-708e-49f6-855b-1d66ff9613f4" width="225"> </p>
+  <br> <br> <br>
 
+ <p align="center"> 
+<img src="https://github.com/DerickFernando51/Aquaculture/assets/124335793/338f079f-0aae-48f1-95be-61f3a963f501" width="750"> </p>
+<br>
 
- 
-Figure 2.28 Temperature graph activity (Landscape)
-
-
-
-
-I also added alert dialogs to create an alert if any of the three parameters went above a predefined nominal value. This is illustrated in figure 2.29
-
- 
-Figure 2.29 Alert dialog
- 
-Figure 2.30 Aquaculture monitoring system application activity flow
-
-Figure 2.30 details how the Aquaculture application was structured and how users could navigate between activities using buttons.
+Figure 10 details how the Aquaculture application was structured and how users could navigate between activities using buttons.
 
 
 
