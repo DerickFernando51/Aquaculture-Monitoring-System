@@ -1,7 +1,12 @@
 # Aquaculture
 The aquaculture monitoring system is a system that measures the conditions of aquaculture in environments such as shrimp farming tanks. The three parameters that are tracked are the temperature, TDS and pH. I was responsible for developing a mobile application to monitor the data captured by this system.
 
-The mobile application was created in Android Studio IDE using Java programming language and XML. Figures 1 to 6 show the layout of the activities of this application. Each activity has a seperate Java and XML file.
+The mobile application was created in Android Studio IDE using Java programming language and XML.  The main functions of these applications were:
+
+     Presenting information about the three sensors used in the system (Using slide screens)
+     Displaying real time sensor readings of the temperature, pressure and pH
+     Generating alerts if any of the parameters values were above/below a specified range
+     Presenting real time graphs showing the variation in the sensors readings within a 24 hour time period
 
 <br>
  <p align="center"> 
