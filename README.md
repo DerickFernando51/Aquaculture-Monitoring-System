@@ -1,12 +1,14 @@
 # Aquaculture
-The aquaculture monitoring system is a system that measures the conditions of aquaculture in environments such as shrimp farming tanks. The three parameters that are tracked are the temperature, TDS and pH. I was responsible for developing a mobile application to monitor the data captured by this system.
+The aquaculture monitoring system is a system that measures the conditions of aquaculture in environments such as shrimp farming tanks. The three parameters that are tracked are the temperature, TDS and pH. I was responsible for developing a mobile application to monitor the data captured by this system. 
 
-The mobile application was created in Android Studio IDE using Java programming language and XML.  The main functions of these applications were:
+The mobile application was created in Android Studio IDE using Java programming language and XML.  The main functions of this application are listed below:
 
-     Presenting information about the three sensors used in the system (Using slide screens)
-     Displaying real time sensor readings of the temperature, pressure and pH
-     Generating alerts if any of the parameters values were above/below a specified range
-     Presenting real time graphs showing the variation in the sensors readings within a 24 hour time period
+     • Presenting information about the three sensors used in the system (Using slide screens)
+     • Displaying real time sensor readings of the temperature, pressure and pH
+     • Generating alerts if any of the parameters values were above/below a specified range
+     • Presenting real time graphs showing the variation in the sensors readings within a 24 hour time period
+<br>
+Figures 1 to 6 show the layout of the activities of this application.<br>
 
 <br>
  <p align="center"> 
@@ -32,6 +34,11 @@ In order to make it easier to analyze the graphs, landscape layout qualifiers we
 
  
  <br>
+The graphs were generated using MP Android Chart Library. The sensors readings were saved in the Google Firebase database using Arduino IDE. 
+RTC
+
+
+
 I also added alert dialogs to create an alert if any of the three parameters went above a predefined nominal value. This is illustrated in figure 9
 <br>
 <p align="center"> 
