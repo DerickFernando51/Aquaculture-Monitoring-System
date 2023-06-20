@@ -47,7 +47,7 @@ This is the main activity page of this application. This page presented the real
 <p align="center"> Figure 4: Main activity page (Portrait and landscape) </p>
 <br><br>
 
-The data captured by the sensors was sent to the Google Firebase real time database. The figure below shows how this data was saved in the real time database.
+The data captured by the sensors was sent to the Google Firebase real time database using Arduino IDE. The figure below shows how this data was saved in the real time database.
 <p align="center"> 
 <img src="https://github.com/DerickFernando51/Aquaculture-Monitoring-System/assets/124335793/4cbe4d90-e234-4aee-b65c-42bc0c5a78aa" width="350"> </p>
 <p align="center"> Figure 5:  Google Firebase database with the real time viewer data </p>
