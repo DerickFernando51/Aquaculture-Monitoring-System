@@ -13,7 +13,9 @@ The main functions of this application are listed below:
      • Presenting real time graphs showing the variation in the sensors readings within a 24 hour time period
 
 <br>
+
 ## 3.0 Application overview
+ 
 The figure below details how the Aquaculture Monitoring System application was structured and how users could navigate between activities using buttons.
 <br>
 <p align="center"> 
