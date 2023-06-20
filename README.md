@@ -1,9 +1,10 @@
 # Aquaculture
+## 1.0 Introduction
 The aquaculture monitoring system is a system that measures the conditions of aquaculture in environments such as shrimp farming tanks. The three parameters that are tracked are the temperature, TDS and pH. I was responsible for developing a mobile application to monitor the data captured by this system. 
 
 The microcontroller used for this project was the ESP32. The sensors were programmed using Arduino IDE. The mobile application was created in Android Studio IDE using Java programming language and XML. 
 <br>
-
+## 2.0 Application functions
 The main functions of this application are listed below:
 
      • Presenting information about the three sensors used in the system  
@@ -12,7 +13,7 @@ The main functions of this application are listed below:
      • Presenting real time graphs showing the variation in the sensors readings within a 24 hour time period
 
 <br>
-
+## 3.0 Application overview
 The figure below details how the Aquaculture Monitoring System application was structured and how users could navigate between activities using buttons.
 <br>
 <p align="center"> 
@@ -21,22 +22,22 @@ The figure below details how the Aquaculture Monitoring System application was s
 
  
 
-
-## 1.0 Splash screen
+## 4.0 Application activities and features
+### 4.1 Splash screen
 The first page of the Aquaculture monitoring system is a splash screen with a 5 second video animation. 
 <br>
 <p align="center"> 
 <img src="https://github.com/DerickFernando51/Aquaculture-Monitoring-System/assets/124335793/0e651eb7-69ea-4cac-9adf-04270493a6b9" width="200"> </p>
 <p align="center"> Figure 2: Splash screen </p>
 
-## 2.0 Slide screens
+### 4.2 Slide screens
 The next three pages were slide screens containing information about the three sensors used by the system. The user can navigate between these screen using back and next buttons or go straight to the real time viewer using the skip button.
 <br>
 <p align="center"> 
 <img src="https://github.com/DerickFernando51/Aquaculture-Monitoring-System/assets/124335793/b3ddfbd8-8b55-44d6-96fd-85acf66b1a05" width="650"> </p>
 <p align="center"> Figure 3: Slide screens </p>
 
-## 3.0 Real time viewer
+### 4.3 Real time viewer
 This is the main activity page of this application. This page presented the real time sensor readings and buttons to access the real time graphs. Portrait and landscape layout qualifiers were added to this page.
 
 <p align="center"> 
@@ -50,7 +51,7 @@ The data captured by the sensors was sent to the Google Firebase real time datab
 <p align="center"> Figure 5:  Google Firebase database with the real time viewer data </p>
 
  
-## 4.0 Real time graphs 
+### 4.4 Real time graphs 
 The real time graphs were generated using MP Android Chart Library. These graphs displayed how the sensor readings varied with time. In order to make it easier to analyze the graphs, portrait and landscape layout qualifiers  were added as shown below.These activities had a back button to navigate to the main activity page. Users could scroll horizontally and vertically and zoom in to view the graphs more clearly.
 <p align="center"> 
 <img src="https://github.com/DerickFernando51/Aquaculture-Monitoring-System/assets/124335793/af8922eb-b678-425c-a441-c225a795da19" width="800"> </p>
@@ -63,7 +64,7 @@ The data points required for the graphs were stored in the Google Firebase datab
 
  
 
-## 5.0 Alert dialogs
+### 4.5 Alert dialogs
 
 I added alert dialogs to create an alert if any of the three parameters went above a predefined nominal value.  
 <p align="center"> 
