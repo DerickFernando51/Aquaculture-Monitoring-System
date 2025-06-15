@@ -1,8 +1,8 @@
 # Aquaculture
 ## 1.0 Introduction
-The Aquaculture Monitoring System is a system that measures the conditions of aquaculture in environments such as shrimp farming tanks. The three parameters that are tracked are the temperature, TDS and pH. I was responsible for developing a mobile application to monitor the data captured by this system. 
+The Aquaculture Monitoring System is a system that measures the conditions of aquaculture in environments such as shrimp farming tanks. The three parameters that are tracked are the temperature, TDS and pH. A mobile application was developed to monitor the data captured by this system. 
 
-The microcontroller used for this project was the ESP32. The sensors were programmed using Arduino IDE. The mobile application was created in Android Studio IDE using Java and Kotlin programming languages.The UI layouts were defined using XML. 
+The microcontroller used for this system was the ESP32. The sensors were programmed using Arduino IDE. The mobile application was created in Android Studio IDE using Java and Kotlin programming languages.The UI layouts were defined using XML. 
 <br>
 ## 2.0 Application functions
 The main functions of this application are listed below:
@@ -68,7 +68,7 @@ The data points required for the graphs were stored in the Google Firebase datab
 
 ### 4.5 Alert dialogs
 
-I added alert dialogs to create an alert if any of the three parameters went above a predefined nominal value.  
+Alert dialogs were implemented to generate an alert if any of the three parameters went above a predefined nominal value.  
 <p align="center"> 
 <img src="https://github.com/DerickFernando51/Aquaculture-Monitoring-System/assets/124335793/8c389e26-1148-4f18-882a-f01e120dab8a" width="250"> </p>
 <p align="center"> Figure 8:  pH Alert dialog </p>
