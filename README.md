@@ -8,7 +8,7 @@ The application provides the following core functionalities:
  
 - Displaying information about the three sensors integrated into the system
 
-- Showing real-time readings for temperature, pressure, and pH
+- Showing real-time readings for temperature, pressure and pH
 
 - Generating alerts when sensor values fall outside specified thresholds
 
