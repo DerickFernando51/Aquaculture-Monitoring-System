@@ -2,7 +2,7 @@
 
 A mobile application developed to track and manage data from an Aquaculture Monitoring System. This system automates key tasks in shrimp farming tanks such as water quality management and environmental control.
 
-<br><br>
+<br>
 The application provides the following core functionalities:
 
  
